@@ -21,7 +21,7 @@ const RazorpayPayment = ({ setModal }) => {
 
   const key = import.meta.env.VITE_RAZORPAY_KEY_ID;
   const apiUrl = import.meta.env.VITE_BACKEND_URL;
-  const api = `${apiUrl}/dubai/add-workshop`;
+  const api = `${apiUrl}/dubai/add-workshop-payment-done`;
 
   const validate = () => {
     const errors = {};
